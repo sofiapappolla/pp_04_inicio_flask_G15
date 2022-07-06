@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<head>
+
+</head>
+<body>
+{% block titulo %}{% endblock %}
+{% block contenido %}{% endblock %}
+  <nav>
+    <a href="{{ url_for('index') }}">Inicio<a/>
+    <a href="{{ url_for('ayuda') }}">Acerca de<a/>
+    <a href="{{ url_for('listado') }}">Listado<a/>
+    <a href="{{ url_for('listadoTop') }}">Listado Top<a/>
+    <a href="{{ url_for('listadoArg') }}">Listado Arg<a/>
+      
+  </nav>
+</body>
+</html>
